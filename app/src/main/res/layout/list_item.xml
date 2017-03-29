@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="USD"
+        android:gravity="center"
+        android:layout_weight="0.01"
+        android:id="@+id/txtIcon"
+        />
+    <TextView
+        android:textColor="@color/colorBlue"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="40.000"
+        android:layout_weight="0.8"
+        android:id="@+id/txtRate"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlue"
+        android:text="VND"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.2"
+        />
+
+</LinearLayout>

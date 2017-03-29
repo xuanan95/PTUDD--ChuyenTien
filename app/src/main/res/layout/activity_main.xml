@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quangduy.moneyconvert.ui.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tỉ giá ngoại tệ"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorBlue"
+        android:gravity="center"
+        android:id="@+id/txtTitle"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlue"
+        android:textStyle="italic"
+        android:id="@+id/txtDate"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvListMoney"
+        android:background="@color/colorGreen"
+        ></ListView>
+</LinearLayout>
